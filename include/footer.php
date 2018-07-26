@@ -1,0 +1,1 @@
+<footer class="navbar navbar-fixed-bottom mainFooter blueFooter">Copyright &copy; <?php echo date('Y')?> QuizSeed. All Rights Reserved.</footer>

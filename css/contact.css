@@ -1,0 +1,45 @@
+.contact-container {
+	background: rgba(0,0,0,.5);
+}
+.contact-container .contact{
+	text-align:center;
+	position: relative;
+	margin: 50px 0;
+}
+
+.contact-container .icon-container{
+	background: rgb(30,30,103);
+	border: 2px solid rgb(30,30,103);
+	color: aliceblue;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	font-size: 40px;
+	transition-duration: .6s;
+	margin: auto;
+}
+
+.contact-container .icon-container .glyphicon{
+	transform: translateY(55px);
+}
+.contact-container .contact:hover .icon-container{
+	transform: rotateY(360deg);
+	background: aliceblue;
+	color: rgb(30,30,103);
+}
+.contact-container .contact .text-container .head{
+	color: aliceblue;
+	font-family: monospace;
+	font-size: 20px;
+	margin-top: 5px;
+	font-weight: bold;
+
+}
+.contact-container .contact .text-container .desc,
+.contact-container .contact .text-container .desc a
+{
+	margin-top:5px;
+	color: aliceblue;
+	font-family: sans-serif;
+	text-decoration: none;	
+}
